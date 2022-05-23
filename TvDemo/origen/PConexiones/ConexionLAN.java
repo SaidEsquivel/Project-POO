@@ -8,9 +8,17 @@ package PConexiones;
 public class ConexionLAN extends Conexion{
 
   //
-  // Fields
+  // Fieldsfc
   //
-
+//creado por said
+public class ConexionLAN {
+public static void main(String [] args){
+        Conexion p1;
+        p1 = new Conexion("luis",20);
+        
+        p1.mostrarDatos();
+    }
+    }
   /*
   
   Ver super clase Conexion 
