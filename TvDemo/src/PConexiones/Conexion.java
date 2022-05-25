@@ -24,6 +24,10 @@ public class Conexion {
   // Methods
   //
 
+    Conexion(String luis, int i) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
 
   //
   // Accessor methods
@@ -80,5 +84,9 @@ public class Conexion {
   //
   // Other methods
   //
+
+    void mostrarDatos() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 
 }
