@@ -19,7 +19,11 @@ public class Conexion {
   // Constructors
   //
   //Herrera improvement public Wifi () { };
-  
+  public Conexion(String SSID, String clave, String usuario){
+      this.SSID = SSID;
+      this.clave = clave;
+      this.usuario = usuario;
+  }
   //
   // Methods
   //
@@ -35,6 +39,7 @@ public class Conexion {
    */
   public void setSSID ( String newVar ) {
     SSID = newVar;
+      System.out.println("Es el ssid");
   }
 
   /**
@@ -51,6 +56,7 @@ public class Conexion {
    */
   public void setClave ( String newVar ) {
     clave = newVar;
+      System.out.println("La clave");
   }
 
   /**
@@ -67,6 +73,7 @@ public class Conexion {
    */
   public void setUsuario ( String newVar ) {
     usuario = newVar;
+      System.out.println("Es un usuario");
   }
 
   /**
